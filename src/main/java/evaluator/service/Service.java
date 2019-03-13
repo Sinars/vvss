@@ -1,7 +1,8 @@
 package evaluator.service;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.io.IOException;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import evaluator.exception.InputValidationFailedException;
 import evaluator.model.Intrebare;
@@ -16,13 +17,15 @@ import evaluator.util.InputValidation;
 public class Service {
 	
 	private IntrebariRepository intrebariRepository;
-	
+
+	private Random random;
 	public Service(IntrebariRepository intrebariRepository) {
 		this.intrebariRepository = intrebariRepository;
+		random = new Random();
 	}
 	
 	public Intrebare addNewIntrebare(String enunt, String varianta1, String varianta2, String varianta3,
-									 String variantaCorecta, String domeniu) throws DuplicateIntrebareException, InputValidationFailedException {
+									 String variantaCorecta, String domeniu) throws DuplicateIntrebareException, InputValidationFailedException, IOException {
 
 		InputValidation.validateDomeniu(domeniu);
 		InputValidation.validateEnunt(enunt);
@@ -36,17 +39,25 @@ public class Service {
 
 		return intrebare;
 	}
-	
-	public boolean exists(Intrebare intrebare){
-		return intrebariRepository.exists(intrebare);
+
+	private Set<Intrebare> distinctIntrebari() {
+		List<Intrebare> intrebari = intrebariRepository.getIntrebari();
+		return intrebari.stream().filter(intrebare ->
+				intrebari.stream().filter(intrebare1 -> intrebare1.getDomeniu().equals(intrebare.getDomeniu())).count() == 1
+		).collect(Collectors.toSet());
 	}
-	
+
+	private Intrebare getRandom() {
+		int max = intrebariRepository.getIntrebari().size();
+		return intrebariRepository.getNthIntrebare(random.nextInt(max));
+	}
+
 	public Test createNewTest() throws NotAbleToCreateTestException{
 		
-		if(intrebariRepository.getIntrebari().size() < 3)
+		if(intrebariRepository.getIntrebari().size() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente intrebari pentru crearea unui test!(5)");
 		
-		if(intrebariRepository.getNumberOfDistinctDomains() < 4)
+		if(distinctIntrebari().size() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente domenii pentru crearea unui test!(5)");
 		
 		List<Intrebare> testIntrebari = new LinkedList<Intrebare>();
@@ -54,8 +65,8 @@ public class Service {
 		Intrebare intrebare;
 		Test test = new Test();
 		
-		while(testIntrebari.size() != 7){
-			intrebare = intrebariRepository.pickRandomIntrebare();
+		while(testIntrebari.size() < 5){
+			intrebare = getRandom();
 			
 			if(!testIntrebari.contains(intrebare) && !domenii.contains(intrebare.getDomeniu())){
 				testIntrebari.add(intrebare);
@@ -70,15 +81,14 @@ public class Service {
 	}
 	
 	public Statistica getStatistica() throws NotAbleToCreateStatisticsException{
-		
-		if(intrebariRepository.getIntrebari().isEmpty())
+
+		List<Intrebare> intrebari = intrebariRepository.getIntrebari();
+		if(intrebari.isEmpty())
 			throw new NotAbleToCreateStatisticsException("Repository-ul nu contine nicio intrebare!");
 		
 		Statistica statistica = new Statistica();
-		for(String domeniu : intrebariRepository.getDistinctDomains()){
-			statistica.add(domeniu, intrebariRepository.getIntrebari().size());
-		}
-		
+		statistica.setIntrebariDomenii(intrebari.stream().collect(Collectors.toMap(Intrebare::getDomeniu,
+				item-> (int)intrebari.stream().filter(intrebare -> intrebare.getDomeniu().equals(item.getDomeniu())).count())));
 		return statistica;
 	}
 

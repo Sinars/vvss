@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db46a182-42f1-4039-aa1c-3392a410aaa5" name="Default" comment="" />
+    <list default="true" id="db46a182-42f1-4039-aa1c-3392a410aaa5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProiectEvaluatorExamen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProiectEvaluatorExamen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/ui/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/StartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/controller/AppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/DuplicateIntrebareException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/InputValidationFailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/NotAbleToCreateStatisticsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/NotAbleToCreateTestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Intrebare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Statistica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/repository/IntrebariRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/ui/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/util/InputValidation.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +78,7 @@
       <file leaf-file-name="StartApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/StartApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="437">
               <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -65,71 +87,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/ui/UI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="evaluator.plantuml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/evaluator.plantuml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/service/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="1817">
+              <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/List.java">
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3404">
-              <caret line="171" column="12" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="12" />
+            <state relative-caret-position="22586">
+              <caret line="1026" column="9" selection-start-line="1026" selection-start-column="9" selection-end-line="1026" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Intrebare.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
+      <file leaf-file-name="DuplicateIntrebareException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Statistica.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Statistica.java">
+      <file leaf-file-name="InputValidationFailedException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotAbleToCreateStatisticsException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -137,17 +143,17 @@
       <file leaf-file-name="InputValidation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1587">
-              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+            <state relative-caret-position="575">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Test.java">
+      <file leaf-file-name="UI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/ui/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="1334">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,16 +164,10 @@
       <file leaf-file-name="IntrebariRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="1587">
+              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#2677#2678#0" expanded="true" />
-                <element signature="e#2700#2701#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,15 +182,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/test/whitebox/WhiteBoxTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/model/Statistica.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/model/Test.java" />
@@ -199,9 +198,13 @@
         <option value="$PROJECT_DIR$/src/main/java/evaluator/StartApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/service/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/service/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/ui/UI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/service/Service.java" />
       </list>
     </option>
   </component>
@@ -221,11 +224,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1625" />
-    <option name="height" value="925" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="30" />
+    <option name="width" value="1293" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -233,8 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,6 +268,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
@@ -315,6 +325,12 @@
             </path>
             <path>
               <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -322,6 +338,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,9 +348,10 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550998801344" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -457,42 +476,44 @@
       <workItem from="1551272283684" duration="2158000" />
       <workItem from="1551334669441" duration="27000" />
       <workItem from="1551370808643" duration="5356000" />
-      <workItem from="1552314414188" duration="2281000" />
+      <workItem from="1552314414188" duration="9759000" />
+      <workItem from="1552402832574" duration="33000" />
+      <workItem from="1552501550127" duration="1043000" />
+      <workItem from="1552502814923" duration="252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12441000" />
+    <option name="totallyTimeSpent" value="21247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5025094" side_tool="true" weight="0.33238637" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" visible="true" weight="0.32912722" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="9" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49749058" weight="0.33441207" />
+      <window_info anchor="bottom" id="Sequence" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49895832" visible="true" weight="0.32912722" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2578125" />
       <window_info anchor="bottom" id="Statistic" order="12" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39852786" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32846716" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="GitLabIntegration" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49749058" visible="true" weight="0.33119658" />
-      <window_info anchor="bottom" id="Sequence" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2578125" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39852786" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32846716" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -514,69 +535,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60513">
-          <caret line="2631" column="18" selection-start-line="2631" selection-start-column="18" selection-end-line="2631" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/StartApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/service/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,12 +584,6 @@
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -658,8 +614,6 @@
           <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,10 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,12 +667,6 @@
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -793,12 +737,6 @@
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,154 +762,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/test/whitebox/WhiteBoxTests.java" />
-    <entry file="uml://JAVA/evaluator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>evaluator</OriginalElement>
-          <nodes>
-            <node x="0.0" y="797.0">evaluator.model.Statistica</node>
-            <node x="617.0" y="1374.0">evaluator.main.StartApp</node>
-            <node x="576.8125" y="142.0">evaluator.util.InputValidation</node>
-            <node x="1000.0" y="824.5">evaluator.exception.NotAbleToCreateStatisticsException</node>
-            <node x="201.81249999999994" y="472.5">evaluator.exception.DuplicateIntrebareException</node>
-            <node x="344.99999999999994" y="716.0">evaluator.repository.IntrebariRepository</node>
-            <node x="567.3125" y="0.0">evaluator.exception.InputValidationFailedException</node>
-            <node x="752.0" y="824.5">evaluator.model.Test</node>
-            <node x="548.8125" y="391.0">evaluator.model.Intrebare</node>
-            <node x="550.5" y="1095.0">evaluator.controller.AppController</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="evaluator.main.StartApp" target="evaluator.exception.NotAbleToCreateStatisticsException">
-              <point x="78.75" y="-46.0" />
-              <point x="800.75" y="1354.0" />
-              <point x="1282.75" y="1354.0" />
-              <point x="94.25000000000006" y="46.0" />
-            </edge>
-            <edge source="evaluator.main.StartApp" target="evaluator.controller.AppController">
-              <point x="26.25" y="-46.0" />
-              <point x="748.25" y="1344.0" />
-              <point x="807.75" y="1344.0" />
-              <point x="85.75" y="114.5" />
-            </edge>
-            <edge source="evaluator.util.InputValidation" target="evaluator.exception.InputValidationFailedException">
-              <point x="0.0" y="-99.5" />
-              <point x="0.0" y="46.0" />
-            </edge>
-            <edge source="evaluator.controller.AppController" target="evaluator.model.Intrebare">
-              <point x="107.1875" y="-114.5" />
-              <point x="829.1875" y="1065.0" />
-              <point x="989.5" y="1065.0" />
-              <point x="989.5" y="666.0" />
-              <point x="903.5267857142858" y="666.0" />
-              <point x="163.71428571428578" y="127.5" />
-            </edge>
-            <edge source="evaluator.controller.AppController" target="evaluator.exception.NotAbleToCreateStatisticsException">
-              <point x="150.0625" y="-114.5" />
-              <point x="872.0625" y="1075.0" />
-              <point x="1094.25" y="1075.0" />
-              <point x="-94.25" y="46.0" />
-            </edge>
-            <edge source="evaluator.model.Test" target="evaluator.model.Intrebare">
-              <point x="-75.66666666666674" y="-46.0" />
-              <point x="789.8333333333333" y="696.0" />
-              <point x="739.8125" y="696.0" />
-              <point x="0.0" y="127.5" />
-            </edge>
-            <edge source="evaluator.main.StartApp" target="evaluator.model.Statistica">
-              <point x="-78.75" y="-46.0" />
-              <point x="643.25" y="1354.0" />
-              <point x="138.58081501831498" y="1354.0" />
-              <point x="138.58081501831498" y="1075.0" />
-              <point x="54.16666666666663" y="1075.0" />
-              <point x="-108.33333333333337" y="73.5" />
-            </edge>
-            <edge source="evaluator.repository.IntrebariRepository" target="evaluator.exception.DuplicateIntrebareException">
-              <point x="-145.125" y="-154.5" />
-              <point x="393.37499999999994" y="696.0" />
-              <point x="365.31249999999994" y="696.0" />
-              <point x="0.0" y="46.0" />
-            </edge>
-            <edge source="evaluator.model.Intrebare" target="evaluator.util.InputValidation">
-              <point x="0.0" y="-127.5" />
-              <point x="0.0" y="99.5" />
-            </edge>
-            <edge source="evaluator.controller.AppController" target="evaluator.model.Test">
-              <point x="21.4375" y="-114.5" />
-              <point x="743.4375" y="1045.0" />
-              <point x="808.75" y="1045.0" />
-              <point x="-56.75" y="46.0" />
-            </edge>
-            <edge source="evaluator.controller.AppController" target="evaluator.repository.IntrebariRepository">
-              <point x="-64.3125" y="-114.5" />
-              <point x="657.6875" y="1055.0" />
-              <point x="441.74999999999994" y="1055.0" />
-              <point x="-96.75" y="154.5" />
-            </edge>
-            <edge source="evaluator.controller.AppController" target="evaluator.model.Statistica">
-              <point x="-107.1875" y="-114.5" />
-              <point x="614.8125" y="1065.0" />
-              <point x="270.8333333333333" y="1065.0" />
-              <point x="108.33333333333331" y="73.5" />
-            </edge>
-            <edge source="evaluator.repository.IntrebariRepository" target="evaluator.model.Intrebare">
-              <point x="48.375" y="-154.5" />
-              <point x="586.875" y="696.0" />
-              <point x="630.6696428571429" y="696.0" />
-              <point x="-109.14285714285711" y="127.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.26854395604395603" x="-572.0" y="884.0" />
-          <SelectedNodes>
-            <node>evaluator.main.StartApp</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProiectEvaluatorExamen.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -984,13 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3404">
           <caret line="171" column="12" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1011,20 +796,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/StartApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="3578" column="23" lean-forward="true" selection-start-line="3578" selection-start-column="23" selection-end-line="3578" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="304.0" y="296.0">com</node>
+            <node x="0.0" y="222.0">images</node>
+            <node x="352.0" y="148.0">netscape</node>
+            <node x="0.0" y="370.0">junit</node>
+            <node x="323.0" y="222.0">oracle</node>
+            <node x="0.0" y="444.0">org</node>
+            <node x="253.0" y="0.0">toolbarButtonGraphics</node>
+            <node x="293.0" y="370.0">sun</node>
+            <node x="0.0" y="148.0">META-INF</node>
+            <node x="142.0" y="444.0">jdk</node>
+            <node x="211.0" y="74.0">groovyjarjarasm</node>
+            <node x="148.0" y="370.0">java</node>
+            <node x="162.0" y="222.0">groovy</node>
+            <node x="154.0" y="296.0">javax</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="0.0" y="296.0">javafx</node>
+            <node x="0.0" y="74.0">groovyjarjarantlr</node>
+            <node x="179.0" y="148.0">evaluator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-233.0" y="199.0" />
+          <SelectedNodes>
+            <node>java</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Statistica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#276#277#0" expanded="true" />
@@ -1033,56 +873,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22586">
+          <caret line="1026" column="9" selection-start-line="1026" selection-start-column="9" selection-end-line="1026" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        <state relative-caret-position="1817">
+          <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/ui/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="1334">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1587">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/evaluator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>evaluator</OriginalElement>
+          <nodes>
+            <node x="893.9329405162741" y="345.5">evaluator.model.Statistica</node>
+            <node x="1172.9329405162741" y="324.5">evaluator.util.InputValidation</node>
+            <node x="1215.7052769761103" y="610.0">evaluator.service.Service</node>
+            <node x="277.93294051627413" y="379.5">evaluator.exception.NotAbleToCreateStatisticsException</node>
+            <node x="597.9329405162741" y="379.5">evaluator.exception.NotAbleToCreateTestException</node>
+            <node x="294.0" y="89.5">evaluator.exception.DuplicateIntrebareException</node>
+            <node x="1654.9329405162741" y="290.0">evaluator.repository.IntrebariRepository</node>
+            <node x="513.2677769761104" y="888.0">evaluator.ui.UI</node>
+            <node x="0.0" y="89.5">evaluator.exception.InputValidationFailedException</node>
+            <node x="1456.7052769761106" y="1057.0">evaluator.StartApp</node>
+            <node x="1487.2677769761103" y="0.0">evaluator.model.Intrebare</node>
+            <node x="1452.9329405162741" y="368.0">evaluator.model.Test</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="evaluator.ui.UI" target="evaluator.service.Service">
+              <point x="55.42857142857133" y="-59.5" />
+              <point x="665.6963484046818" y="858.0" />
+              <point x="1269.9552769761103" y="858.0" />
+              <point x="-162.75" y="104.0" />
+            </edge>
+            <edge source="evaluator.util.InputValidation" target="evaluator.exception.InputValidationFailedException">
+              <point x="0.0" y="-80.5" />
+              <point x="1302.4329405162741" y="260.0" />
+              <point x="205.5" y="260.0" />
+              <point x="68.5" y="25.5" />
+            </edge>
+            <edge source="evaluator.service.Service" target="evaluator.model.Intrebare">
+              <point x="0.0" y="-104.0" />
+              <point x="1432.7052769761103" y="590.0" />
+              <point x="1442.4329405162741" y="590.0" />
+              <point x="1442.4329405162741" y="260.0" />
+              <point x="1511.7677769761103" y="260.0" />
+              <point x="-147.0" y="115.0" />
+            </edge>
+            <edge source="evaluator.StartApp" target="evaluator.service.Service">
+              <point x="14.083333333333314" y="-37.0" />
+              <point x="1555.2886103094438" y="1037.0" />
+              <point x="1546.7052769761103" y="1037.0" />
+              <point x="1546.7052769761103" y="868.0" />
+              <point x="1595.4552769761103" y="868.0" />
+              <point x="162.75" y="104.0" />
+            </edge>
+            <edge source="evaluator.ui.UI" target="evaluator.exception.DuplicateIntrebareException">
+              <point x="-55.42857142857133" y="-59.5" />
+              <point x="554.8392055475391" y="858.0" />
+              <point x="267.43294051627413" y="858.0" />
+              <point x="267.43294051627413" y="270.0" />
+              <point x="358.75" y="270.0" />
+              <point x="-64.75" y="25.5" />
+            </edge>
+            <edge source="evaluator.service.Service" target="evaluator.exception.NotAbleToCreateTestException">
+              <point x="-157.81818181818176" y="-104.0" />
+              <point x="1274.8870951579288" y="570.0" />
+              <point x="804.9329405162741" y="570.0" />
+              <point x="69.0" y="25.5" />
+            </edge>
+            <edge source="evaluator.ui.UI" target="evaluator.model.Statistica">
+              <point x="27.71428571428578" y="-59.5" />
+              <point x="637.9820626903962" y="848.0" />
+              <point x="898.8333333333333" y="848.0" />
+              <point x="898.8333333333333" y="590.0" />
+              <point x="937.0996071829408" y="590.0" />
+              <point x="-86.33333333333337" y="59.5" />
+            </edge>
+            <edge source="evaluator.model.Test" target="evaluator.model.Intrebare">
+              <point x="45.25" y="-37.0" />
+              <point x="1588.6829405162741" y="270.0" />
+              <point x="1609.7677769761103" y="270.0" />
+              <point x="-49.0" y="115.0" />
+            </edge>
+            <edge source="evaluator.service.Service" target="evaluator.model.Test">
+              <point x="39.454545454545496" y="-104.0" />
+              <point x="1472.1598224306558" y="590.0" />
+              <point x="1498.1829405162741" y="590.0" />
+              <point x="-45.25" y="37.0" />
+            </edge>
+            <edge source="evaluator.ui.UI" target="evaluator.exception.NotAbleToCreateStatisticsException">
+              <point x="-27.71428571428578" y="-59.5" />
+              <point x="582.5534912618247" y="848.0" />
+              <point x="352.93294051627413" y="848.0" />
+              <point x="-75.0" y="25.5" />
+            </edge>
+            <edge source="evaluator.ui.UI" target="evaluator.exception.InputValidationFailedException">
+              <point x="-83.14285714285711" y="-59.5" />
+              <point x="527.1249198332533" y="868.0" />
+              <point x="60.142776976110554" y="868.0" />
+              <point x="60.142776976110554" y="270.0" />
+              <point x="68.5" y="270.0" />
+              <point x="-68.5" y="25.5" />
+            </edge>
+            <edge source="evaluator.StartApp" target="evaluator.ui.UI">
+              <point x="-42.25" y="-37.0" />
+              <point x="1498.9552769761106" y="1027.0" />
+              <point x="658.7677769761104" y="1027.0" />
+              <point x="48.5" y="59.5" />
+            </edge>
+            <edge source="evaluator.repository.IntrebariRepository" target="evaluator.exception.DuplicateIntrebareException">
+              <point x="-114.375" y="-115.0" />
+              <point x="1693.0579405162741" y="250.0" />
+              <point x="488.25" y="250.0" />
+              <point x="64.75" y="25.5" />
+            </edge>
+            <edge source="evaluator.service.Service" target="evaluator.exception.NotAbleToCreateStatisticsException">
+              <point x="-197.2727272727272" y="-104.0" />
+              <point x="1235.4325497033833" y="580.0" />
+              <point x="502.93294051627413" y="580.0" />
+              <point x="75.0" y="25.5" />
+            </edge>
+            <edge source="evaluator.StartApp" target="evaluator.repository.IntrebariRepository">
+              <point x="42.25" y="-37.0" />
+              <point x="1583.4552769761106" y="1027.0" />
+              <point x="1868.4552769761103" y="1027.0" />
+              <point x="1868.4552769761103" y="590.0" />
+              <point x="1845.5579405162741" y="590.0" />
+              <point x="38.125" y="115.0" />
+            </edge>
+            <edge source="evaluator.service.Service" target="evaluator.repository.IntrebariRepository">
+              <point x="157.81818181818176" y="-104.0" />
+              <point x="1590.5234587942923" y="580.0" />
+              <point x="1693.0579405162741" y="580.0" />
+              <point x="-114.375" y="115.0" />
+            </edge>
+            <edge source="evaluator.service.Service" target="evaluator.util.InputValidation">
+              <point x="-39.454545454545496" y="-104.0" />
+              <point x="1393.2507315215648" y="540.0" />
+              <point x="1302.4329405162741" y="540.0" />
+              <point x="0.0" y="80.5" />
+            </edge>
+            <edge source="evaluator.service.Service" target="evaluator.model.Statistica">
+              <point x="-78.90909090909088" y="-104.0" />
+              <point x="1353.7961860670196" y="550.0" />
+              <point x="1109.7662738496074" y="550.0" />
+              <point x="86.33333333333326" y="59.5" />
+            </edge>
+            <edge source="evaluator.repository.IntrebariRepository" target="evaluator.model.Intrebare">
+              <point x="-38.125" y="-115.0" />
+              <point x="1769.3079405162741" y="270.0" />
+              <point x="1707.7677769761103" y="270.0" />
+              <point x="49.0" y="115.0" />
+            </edge>
+            <edge source="evaluator.ui.UI" target="evaluator.exception.NotAbleToCreateTestException">
+              <point x="0.0" y="-59.5" />
+              <point x="610.2677769761104" y="838.0" />
+              <point x="666.9329405162741" y="838.0" />
+              <point x="-69.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="145.0" y="306.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/evaluator.plantuml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -1106,6 +1169,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProiectEvaluatorExamen</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1120,6 +1196,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

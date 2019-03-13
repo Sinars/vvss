@@ -1,5 +1,8 @@
 package evaluator.ui;
 
+import evaluator.exception.DuplicateIntrebareException;
+import evaluator.exception.InputValidationFailedException;
+import evaluator.exception.NotAbleToCreateTestException;
 import evaluator.service.Service;
 import evaluator.exception.NotAbleToCreateStatisticsException;
 import evaluator.model.Statistica;
@@ -22,7 +25,7 @@ public class UI {
     public void run() {
         boolean activ = true;
         String optiune;
-        while(activ){
+        while (activ) {
 
             System.out.println("");
             System.out.println("1.Adauga intrebare");
@@ -33,34 +36,44 @@ public class UI {
 
             try {
                 optiune = console.readLine();
-                switch(optiune){
-                    case "1" :
-                        controller.addNewIntrebare();
+                switch (optiune) {
+                    case "1":
+                        System.out.println("Enunt: ");
+                        String enunt = console.readLine();
+                        System.out.println("Var 1: ");
+                        String var1 = console.readLine();
+                        System.out.println("Var 2: ");
+                        String var2 = console.readLine();
+                        System.out.println("Var 3: ");
+                        String var3 = console.readLine();
+                        System.out.println("Corect: ");
+                        String corect = console.readLine();
+                        System.out.println("Domeniu: ");
+                        String domeniu = console.readLine();
+                        controller.addNewIntrebare(enunt, var1, var2, var3, corect, domeniu);
                         break;
-                    case "2" :
+                    case "2":
+                        controller.createNewTest();
                         break;
-                    case "3" :
+                    case "3":
                         Statistica statistica;
-                        try {
-                            statistica = controller.getStatistica();
-                            System.out.println(statistica);
-                        } catch (NotAbleToCreateStatisticsException e) {
-                            // TODO
-                        }
+                        statistica = controller.getStatistica();
+                        System.out.println(statistica);
+
 
                         break;
-                    case "4" :
+                    case "4":
                         activ = false;
                         break;
                     default:
                         break;
                 }
-            } catch (IOException e) {
-                e.printStackTrace();
+            } catch (IOException | DuplicateIntrebareException | InputValidationFailedException | NotAbleToCreateTestException | NotAbleToCreateStatisticsException e) {
+                System.out.println(e.getMessage());
+
+
             }
 
-
         }
-
     }
 }

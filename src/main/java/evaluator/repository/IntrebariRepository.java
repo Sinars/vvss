@@ -3,11 +3,8 @@ package evaluator.repository;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
-import java.util.TreeSet;
+import java.nio.file.*;
+import java.util.*;
 
 
 import evaluator.model.Intrebare;
@@ -16,56 +13,44 @@ import evaluator.exception.DuplicateIntrebareException;
 public class IntrebariRepository {
 
 	private List<Intrebare> intrebari;
-	
+	private String fileName;
+
 	public IntrebariRepository(String file) {
 		loadIntrebariFromFile(file);
+		fileName = file;
 	}
 	
-	public void addIntrebare(Intrebare i) throws DuplicateIntrebareException{
+	public void addIntrebare(Intrebare i) throws DuplicateIntrebareException, IOException {
 		if(exists(i))
 			throw new DuplicateIntrebareException("Intrebarea deja exista!");
 		intrebari.add(i);
+		writeToFile(i);
+
+	}
+
+	private void writeToFile(Intrebare i) throws IOException {
+		Path path = Paths.get(fileName);
+		Files.write(path, i.toString().getBytes(), StandardOpenOption.APPEND);
 	}
 	
 	public boolean exists(Intrebare i){
 		return (intrebari.contains(i));
 	}
-	
-	public Intrebare pickRandomIntrebare(){
-		Random random = new Random();
-		return intrebari.get(random.nextInt(intrebari.size()));
+
+	public Intrebare getNthIntrebare(int n) {
+		return intrebari.get(n);
 	}
-	
-	public int getNumberOfDistinctDomains(){
-		return getDistinctDomains().size();
-		
-	}
-	
+
 	public Set<String> getDistinctDomains(){
 		Set<String> domains = new TreeSet<String>();
 		for(Intrebare intrebre : intrebari)
 			domains.add(intrebre.getDomeniu());
 		return domains;
 	}
-	
-	public List<Intrebare> getIntrebariByDomain(String domain){
-		List<Intrebare> intrebariByDomain = new LinkedList<Intrebare>();
-		for(Intrebare intrebare : intrebari){
-			if(intrebare.getDomeniu().equals(domain)){
-				intrebariByDomain.add(intrebare);
-			}
-		}
-		
-		return intrebariByDomain;
-	}
-	
-	public int getNumberOfIntrebariByDomain(String domain){
-		return getIntrebariByDomain(domain).size();
-	}
-	
+
 	public List<Intrebare> loadIntrebariFromFile(String f){
-		
-		List<Intrebare> intrebari = new LinkedList<Intrebare>();
+
+		intrebari = new LinkedList<>();
 		BufferedReader br = null;
 		String line = null;
 		List<String> intrebareAux;
@@ -75,7 +60,7 @@ public class IntrebariRepository {
 			br = new BufferedReader(new FileReader(f));
 			line = br.readLine();
 			while(line != null){
-				intrebareAux = new LinkedList<String>();
+				intrebareAux = new LinkedList<>();
 				while(!line.equals("##")){
 					intrebareAux.add(line);
 					line = br.readLine();
@@ -92,7 +77,7 @@ public class IntrebariRepository {
 		
 		}
 		catch (IOException e) {
-			// TODO: handle exception
+			System.out.println("Unable to load data from file");
 		}
 		
 		return intrebari;
@@ -102,8 +87,4 @@ public class IntrebariRepository {
 		return intrebari;
 	}
 
-	public void setIntrebari(List<Intrebare> intrebari) {
-		this.intrebari = intrebari;
-	}
-	
 }
