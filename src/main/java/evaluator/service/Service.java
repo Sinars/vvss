@@ -35,9 +35,8 @@ public class Service {
 		InputValidation.validateVariantaCorecta(variantaCorecta);
 		Intrebare intrebare = new Intrebare(enunt, varianta1, varianta2, varianta3, variantaCorecta, domeniu);
 
-		intrebariRepository.addIntrebare(intrebare);
+		return intrebariRepository.addIntrebare(intrebare);
 
-		return intrebare;
 	}
 
 
