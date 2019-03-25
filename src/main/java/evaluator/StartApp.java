@@ -13,7 +13,7 @@ import evaluator.ui.UI;
 
 public class StartApp {
 
-	private static final String file = "intrebari.txt";
+	private static final String file = "src\\main\\java\\evaluator\\intrebari.txt";
 	
 	public static void main(String[] args) throws IOException {
 

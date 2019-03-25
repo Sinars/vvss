@@ -53,7 +53,8 @@ public class Intrebare {
 	public void setDomeniu(String domeniu) {
 		this.domeniu = domeniu;
 	}
-	
+	public void setVarianta3(String var3){this.varianta3 = var3;}
+	public String getVarianta3(){return varianta3;}
 	@Override
 	public boolean equals(Object obj) {
 		if(obj instanceof Intrebare){

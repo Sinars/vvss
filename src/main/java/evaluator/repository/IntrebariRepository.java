@@ -20,11 +20,12 @@ public class IntrebariRepository {
 		fileName = file;
 	}
 	
-	public void addIntrebare(Intrebare i) throws DuplicateIntrebareException, IOException {
+	public Intrebare addIntrebare(Intrebare i) throws DuplicateIntrebareException, IOException {
 		if(exists(i))
 			throw new DuplicateIntrebareException("Intrebarea deja exista!");
 		intrebari.add(i);
 		writeToFile(i);
+		return i;
 
 	}
 
