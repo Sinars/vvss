@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.*;
 import java.util.*;
+import java.util.stream.Collectors;
 
 
 import evaluator.model.Intrebare;
@@ -26,7 +27,6 @@ public class IntrebariRepository {
 		intrebari.add(i);
 		writeToFile(i);
 		return i;
-
 	}
 
 	private void writeToFile(Intrebare i) throws IOException {
@@ -83,7 +83,13 @@ public class IntrebariRepository {
 		
 		return intrebari;
 	}
-	
+
+	public Set<Intrebare> getDistinctIntrebari() {
+		return intrebari.stream().filter(intrebare ->
+				intrebari.stream().filter(intrebare1 -> intrebare1.getDomeniu().equals(intrebare.getDomeniu())).count() == 1
+		).collect(Collectors.toSet());
+	}
+
 	public List<Intrebare> getIntrebari() {
 		return intrebari;
 	}

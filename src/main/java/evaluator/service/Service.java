@@ -36,13 +36,7 @@ public class Service {
 		Intrebare intrebare = new Intrebare(enunt, varianta1, varianta2, varianta3, variantaCorecta, domeniu);
 
 		return intrebariRepository.addIntrebare(intrebare);
-	}
 
-	private Set<Intrebare> distinctIntrebari() {
-		List<Intrebare> intrebari = intrebariRepository.getIntrebari();
-		return intrebari.stream().filter(intrebare ->
-				intrebari.stream().filter(intrebare1 -> intrebare1.getDomeniu().equals(intrebare.getDomeniu())).count() == 1
-		).collect(Collectors.toSet());
 	}
 
 	private Intrebare getRandom() {
@@ -55,7 +49,7 @@ public class Service {
 		if(intrebariRepository.getIntrebari().size() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente intrebari pentru crearea unui test!(5)");
 		
-		if(distinctIntrebari().size() < 5)
+		if(intrebariRepository.getDistinctDomains().size() < 5)
 			throw new NotAbleToCreateTestException("Nu exista suficiente domenii pentru crearea unui test!(5)");
 		
 		List<Intrebare> testIntrebari = new LinkedList<Intrebare>();
