@@ -1,6 +1,9 @@
 package evaluator;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import evaluator.service.Service;
 import evaluator.repository.IntrebariRepository;
@@ -16,7 +19,6 @@ public class StartApp {
 	private static final String file = "src\\main\\java\\evaluator\\intrebari.txt";
 	
 	public static void main(String[] args) throws IOException {
-
 
 		IntrebariRepository repo = new IntrebariRepository(file);
 		Service appController = new Service(repo);

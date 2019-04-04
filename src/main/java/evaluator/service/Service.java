@@ -39,10 +39,10 @@ public class Service {
 
 	}
 
-	private Intrebare getRandom() {
-		int max = intrebariRepository.getIntrebari().size();
-		return intrebariRepository.getNthIntrebare(random.nextInt(max));
-	}
+	private Intrebare getRandom(List<Intrebare> intrebari) {
+        int max = intrebari.size();
+        return intrebari.get(random.nextInt(max));
+    }
 
 	public Test createNewTest() throws NotAbleToCreateTestException{
 		
@@ -56,20 +56,18 @@ public class Service {
 		List<String> domenii = new LinkedList<String>();
 		Intrebare intrebare;
 		Test test = new Test();
-		
+		List<Intrebare> totalIntrebari = new ArrayList<>(intrebariRepository.getIntrebari());
 		while(testIntrebari.size() < 5){
-			intrebare = getRandom();
-			
+			intrebare = getRandom(totalIntrebari);
 			if(!testIntrebari.contains(intrebare) && !domenii.contains(intrebare.getDomeniu())){
 				testIntrebari.add(intrebare);
 				domenii.add(intrebare.getDomeniu());
 			}
-			
-		}
-		
+            totalIntrebari.remove(intrebare);
+        }
+
 		test.setIntrebari(testIntrebari);
 		return test;
-		
 	}
 	
 	public Statistica getStatistica() throws NotAbleToCreateStatisticsException{

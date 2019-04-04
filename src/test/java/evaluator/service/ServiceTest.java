@@ -2,6 +2,7 @@ package evaluator.service;
 
 import evaluator.exception.DuplicateIntrebareException;
 import evaluator.exception.InputValidationFailedException;
+import evaluator.exception.NotAbleToCreateTestException;
 import evaluator.model.Intrebare;
 import evaluator.repository.IntrebariRepository;
 import jdk.internal.util.xml.impl.Input;
@@ -13,9 +14,14 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
+import org.mockito.internal.util.collections.Sets;
 
 import java.io.IOException;
 import java.io.InvalidClassException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 import static org.junit.Assert.*;
 import static org.mockito.Matchers.eq;
@@ -166,6 +172,100 @@ public class ServiceTest {
         assertEquals(intrebare, output);
     }
 
+    @Test
+    public void createQuestionFailDomain() throws NotAbleToCreateTestException {
+        expectedException.expect(NotAbleToCreateTestException.class);
+        expectedException.expectMessage("Nu exista suficiente intrebari pentru crearea unui test!(5)");
+        when(repo.getIntrebari()).thenReturn(fourQuestionList());
+        when(repo.getDistinctDomains()).thenReturn(createDomains());
+        service.createNewTest();
+    }
+
+    @Test
+    public void createQuestionFailQuestion() throws NotAbleToCreateTestException {
+        expectedException.expect(NotAbleToCreateTestException.class);
+        expectedException.expectMessage("Nu exista suficiente domenii pentru crearea unui test!(5)");
+        when(repo.getIntrebari()).thenReturn(fiveQuestionList());
+        service.createNewTest();
+    }
+
+    @Test
+    public void createQuestion5Domain() throws NotAbleToCreateTestException {
+        when(repo.getIntrebari()).thenReturn(fiveQuestionListDiffDomain());
+        when(repo.getDistinctDomains()).thenReturn(createFiveDomains());
+        evaluator.model.Test test = service.createNewTest();
+        assertEquals(5, test.getIntrebari().size());
+    }
+
+    @Test
+    public void create6Question5Domain() throws NotAbleToCreateTestException {
+        when(repo.getIntrebari()).thenReturn(sixQuestionList());
+        when(repo.getDistinctDomains()).thenReturn(createFiveDomains());
+        evaluator.model.Test test = service.createNewTest();
+        assertEquals(5, test.getIntrebari().size());
+    }
+
+
+
+    private Set<String> createDomains() {
+        return Sets.newSet("D", "A", "C", "E");
+    }
+
+    private Set<String> createFiveDomains() {
+        return Sets.newSet("D", "A", "C", "E", "F");
+    }
+
+    private List<Intrebare> sixQuestionList() {
+        ArrayList<Intrebare> questions = new ArrayList<>();
+        questions.add(createQuestion("D"));
+        questions.add(createQuestion("A"));
+        questions.add(createQuestion("C"));
+        questions.add(createQuestion("E"));
+        questions.add(createQuestion("F"));
+        questions.add(createQuestion("F"));
+        return questions;
+    }
+
+
+    private List<Intrebare> fiveQuestionListDiffDomain() {
+        ArrayList<Intrebare> questions = new ArrayList<>();
+        questions.add(createQuestion("D"));
+        questions.add(createQuestion("A"));
+        questions.add(createQuestion("C"));
+        questions.add(createQuestion("E"));
+        questions.add(createQuestion("F"));
+        return questions;
+    }
+
+    private List<Intrebare> fiveQuestionList() {
+        ArrayList<Intrebare> questions = new ArrayList<>();
+        questions.add(createQuestion("D"));
+        questions.add(createQuestion("A"));
+        questions.add(createQuestion("C"));
+        questions.add(createQuestion("E"));
+        questions.add(createQuestion("E"));
+        return questions;
+    }
+
+    private List<Intrebare> fourQuestionList() {
+        ArrayList<Intrebare> questions = new ArrayList<>();
+        questions.add(createQuestion("D"));
+        questions.add(createQuestion("A"));
+        questions.add(createQuestion("C"));
+        questions.add(createQuestion("E"));
+        return questions;
+    }
+
+    private Intrebare createQuestion(String domain) {
+        Intrebare intrebare = new Intrebare();
+        intrebare.setDomeniu(domain);
+        intrebare.setEnunt("Intrebare?");
+        intrebare.setVarianta1("1)");
+        intrebare.setVarianta2("2)");
+        intrebare.setVarianta3("3)");
+        intrebare.setVariantaCorecta("3");
+        return intrebare;
+    }
 
     private Intrebare createLowerCaseDomainQuestion() {
         Intrebare intrebare = new Intrebare();
