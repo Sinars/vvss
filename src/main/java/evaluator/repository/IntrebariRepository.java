@@ -19,6 +19,7 @@ public class IntrebariRepository {
 
 	public IntrebariRepository(String file) {
 //		loadIntrebariFromFile(file);
+		intrebari = new ArrayList<>();
 		fileName = file;
 	}
 	
