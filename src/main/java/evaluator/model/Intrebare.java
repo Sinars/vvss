@@ -69,4 +69,8 @@ public class Intrebare {
 		return false;
 	}
 
+	@Override
+	public String toString() {
+		return enunt + " " + varianta1 + " " + varianta2 + " " + varianta3 + " " + variantaCorecta + " " + domeniu + "\n";
+	}
 }

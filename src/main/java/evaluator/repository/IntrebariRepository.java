@@ -18,8 +18,8 @@ public class IntrebariRepository {
 	private String fileName;
 
 	public IntrebariRepository(String file) {
-//		loadIntrebariFromFile(file);
-		intrebari = new ArrayList<>();
+		loadIntrebariFromFile(file);
+//		intrebari = new ArrayList<>();
 		fileName = file;
 	}
 	
@@ -27,7 +27,7 @@ public class IntrebariRepository {
 		if(exists(i))
 			throw new DuplicateIntrebareException("Intrebarea deja exista!");
 		intrebari.add(i);
-//		writeToFile(i);
+		writeToFile(i);
 		return i;
 	}
 
@@ -56,24 +56,22 @@ public class IntrebariRepository {
 		intrebari = new LinkedList<>();
 		BufferedReader br = null;
 		String line = null;
-		List<String> intrebareAux;
 		Intrebare intrebare;
 		
 		try{
 			br = new BufferedReader(new FileReader(f));
 			line = br.readLine();
 			while(line != null){
-				intrebareAux = new LinkedList<>();
-				while(!line.equals("##")){
-					intrebareAux.add(line);
-					line = br.readLine();
-				}
+				String[] data = line.split(" ");
+				line = br.readLine();
+
 				intrebare = new Intrebare();
-				intrebare.setEnunt(intrebareAux.get(0));
-				intrebare.setVarianta1(intrebareAux.get(1));
-				intrebare.setVarianta2(intrebareAux.get(2));
-				intrebare.setVariantaCorecta(intrebareAux.get(4));
-				intrebare.setDomeniu(intrebareAux.get(5));
+				intrebare.setEnunt(data[0]);
+				intrebare.setVarianta1(data[1]);
+				intrebare.setVarianta2(data[2]);
+				intrebare.setVarianta3(data[3]);
+				intrebare.setVariantaCorecta(data[4]);
+				intrebare.setDomeniu(data[5]);
 				intrebari.add(intrebare);
 				line = br.readLine();
 			}

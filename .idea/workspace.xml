@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db46a182-42f1-4039-aa1c-3392a410aaa5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/resources/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/ui/BigBangTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/ui/BigBangTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,8 +47,8 @@
       <file leaf-file-name="TopDownTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/ui/TopDownTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="163">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -71,8 +74,8 @@
       <file leaf-file-name="BigBangTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/ui/BigBangTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="140">
+              <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +104,8 @@
       <file leaf-file-name="IntrebariRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="-3">
+              <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
               <folding>
                 <element signature="e#949#950#0" expanded="true" />
                 <element signature="e#986#987#0" expanded="true" />
@@ -111,18 +114,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Intrebare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="73" column="122" selection-start-line="73" selection-start-column="122" selection-end-line="73" selection-end-column="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/test.txt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="IOException.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/IOException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -155,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/service/AppController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/ui/UI.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" />
@@ -167,9 +169,10 @@
         <option value="$PROJECT_DIR$/src/test/java/evaluator/service/ServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/ui/UITest.java" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/ui/TopDown.java" />
-        <option value="$PROJECT_DIR$/src/test/java/evaluator/ui/BigBangTest.java" />
         <option value="$PROJECT_DIR$/resources/test.txt" />
         <option value="$PROJECT_DIR$/src/test/java/evaluator/ui/TopDownTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java" />
+        <option value="$PROJECT_DIR$/src/test/java/evaluator/ui/BigBangTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java" />
       </list>
     </option>
@@ -253,6 +256,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
@@ -603,7 +624,7 @@
       <workItem from="1555268705601" duration="1414000" />
       <workItem from="1556536317493" duration="68000" />
       <workItem from="1556536597923" duration="10925000" />
-      <workItem from="1557171057756" duration="1653000" />
+      <workItem from="1557171057756" duration="2260000" />
     </task>
     <task id="LOCAL-00001" summary="added test cases">
       <created>1553506072181</created>
@@ -630,21 +651,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TopDownTest_topDown1 - 2019.04.29 at 18h 09m 45s.xml">
-      <configuration name="TopDownTest.topDown1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopDownTest_topDown1 - 2019.04.29 at 18h 10m 12s.xml">
-      <configuration name="TopDownTest.topDown1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopDownTest_topDown1 - 2019.04.29 at 18h 10m 38s.xml">
-      <configuration name="TopDownTest.topDown1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopDownTest_topDown1 - 2019.04.29 at 18h 11m 32s.xml">
-      <configuration name="TopDownTest.topDown1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopDownTest_topDown1 - 2019.04.29 at 18h 12m 01s.xml">
-      <configuration name="TopDownTest.topDown1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TopDownTest_topDown1 - 2019.04.29 at 18h 12m 19s.xml">
       <configuration name="TopDownTest.topDown1" configurationId="JUnit" />
     </history-entry>
@@ -660,9 +666,24 @@
     <history-entry file="TopDown - 2019.05.06 at 23h 17m 39s.xml">
       <configuration name="TopDown" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TopDown - 2019.05.06 at 23h 18m 39s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangTest - 2019.05.06 at 23h 18m 57s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangTest - 2019.05.06 at 23h 25m 21s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangTest - 2019.05.06 at 23h 25m 35s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangTest - 2019.05.06 at 23h 26m 08s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49037000" />
+    <option name="totallyTimeSpent" value="49644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -670,7 +691,7 @@
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" weight="0.71801704" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41471216" side_tool="true" visible="true" weight="0.46659365" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.39759037" />
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.4989733" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -680,7 +701,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49733475" weight="0.39759037" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.4968017" visible="true" weight="0.39759037" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" id="CodeMR Metrics" order="6" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4946695" weight="0.33077765" />
@@ -688,11 +709,11 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="GitLabIntegration" order="10" sideWeight="0.49946696" weight="0.32968238" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4968017" weight="0.32858709" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.58528787" visible="true" weight="0.46659365" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49626866" weight="0.32858709" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5842217" weight="0.46659365" />
       <window_info anchor="bottom" id="Sequence" order="12" />
       <window_info anchor="right" id="CodeMR" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49573562" weight="0.32858709" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4946695" weight="0.32858709" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Favorites" order="2" sideWeight="0.49946696" side_tool="true" weight="0.32968238" />
@@ -755,7 +776,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -808,6 +829,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,13 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -1183,6 +1202,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,8 +1284,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/ui/TopDownTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1273,27 +1301,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="73" column="122" selection-start-line="73" selection-start-column="122" selection-end-line="73" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/ui/BigBangTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="140">
+          <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/ui/TopDownTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="-3">
+          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
           <folding>
             <element signature="e#949#950#0" expanded="true" />
             <element signature="e#986#987#0" expanded="true" />
