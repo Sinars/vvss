@@ -18,7 +18,7 @@ public class IntrebariRepository {
 	private String fileName;
 
 	public IntrebariRepository(String file) {
-		loadIntrebariFromFile(file);
+//		loadIntrebariFromFile(file);
 		fileName = file;
 	}
 	
@@ -26,7 +26,7 @@ public class IntrebariRepository {
 		if(exists(i))
 			throw new DuplicateIntrebareException("Intrebarea deja exista!");
 		intrebari.add(i);
-		writeToFile(i);
+//		writeToFile(i);
 		return i;
 	}
 
