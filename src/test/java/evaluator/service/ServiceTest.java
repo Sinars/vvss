@@ -2,8 +2,10 @@ package evaluator.service;
 
 import evaluator.exception.DuplicateIntrebareException;
 import evaluator.exception.InputValidationFailedException;
+import evaluator.exception.NotAbleToCreateStatisticsException;
 import evaluator.exception.NotAbleToCreateTestException;
 import evaluator.model.Intrebare;
+import evaluator.model.Statistica;
 import evaluator.repository.IntrebariRepository;
 import jdk.internal.util.xml.impl.Input;
 import org.hamcrest.CoreMatchers;
@@ -46,6 +48,22 @@ public class ServiceTest {
     public void tearDown() throws Exception {
         reset(repo);
     }
+
+    @Test(expected = NotAbleToCreateStatisticsException.class)
+    public void getStatisticaError() throws NotAbleToCreateStatisticsException {
+        service.getStatistica();
+    }
+
+    @Test
+    public void getStatistica() throws NotAbleToCreateStatisticsException {
+        when(repo.getIntrebari()).thenReturn(fiveQuestionListDiffDomain());
+        Statistica statistica = service.getStatistica();
+        assertEquals(5, statistica.getIntrebariDomenii().keySet().size());
+        statistica.getIntrebariDomenii().values().forEach(value-> {
+            assertEquals(1, (int)value);
+        }) ;
+    }
+
 
     @Test
     public void addNewIntrebare() throws IOException, DuplicateIntrebareException, InputValidationFailedException {
@@ -127,6 +145,7 @@ public class ServiceTest {
         service.addNewIntrebare(intrebare.getEnunt(), intrebare.getVarianta1(), intrebare.getVarianta2(), intrebare.getVarianta3(),
                 intrebare.getVariantaCorecta(), intrebare.getDomeniu());
     }
+
     @Test
     public void addNewIntrebareTC4() throws DuplicateIntrebareException, InputValidationFailedException, IOException {
         Intrebare intrebare = createTC4();
@@ -189,6 +208,7 @@ public class ServiceTest {
         service.createNewTest();
     }
 
+
     @Test
     public void createQuestion5Domain() throws NotAbleToCreateTestException {
         when(repo.getIntrebari()).thenReturn(fiveQuestionListDiffDomain());
@@ -204,7 +224,6 @@ public class ServiceTest {
         evaluator.model.Test test = service.createNewTest();
         assertEquals(5, test.getIntrebari().size());
     }
-
 
 
     private Set<String> createDomains() {
@@ -277,6 +296,7 @@ public class ServiceTest {
         intrebare.setVariantaCorecta("3");
         return intrebare;
     }
+
     private Intrebare createIntrebareNoQuestionMark() {
         Intrebare intrebare = new Intrebare();
         intrebare.setDomeniu("Matematica");
@@ -343,6 +363,7 @@ public class ServiceTest {
         intrebare.setVariantaCorecta("3");
         return intrebare;
     }
+
     private Intrebare createLongEnuntSizeQuestion() {
         Intrebare intrebare = new Intrebare();
         intrebare.setDomeniu("Matematica");
