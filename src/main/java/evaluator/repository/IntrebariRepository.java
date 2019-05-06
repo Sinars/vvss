@@ -79,7 +79,7 @@ public class IntrebariRepository {
 		
 		}
 		catch (IOException e) {
-			System.out.println("Unable to load data from file");
+			System.out.println("You shouldn't get here");
 		}
 		
 		return intrebari;
